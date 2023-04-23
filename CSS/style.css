@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+/* Group 1 */
+
+
+.group .group1 .navbar1 {
+    position: fixed;
+    width: 100%;
+}
+
+
+
+.group .group1 .navbar1 .navbar .collapse ul li a {
+    color: white;
+
+}
+
+.group .group1 .navbar1 .navbar a img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar1 .navbar .collapse ul {
+    margin-left: 40%;
+}
+
+.group .group1 {
+    height: 795px;
+}
+
+/* Group 1 logo part */
+.group .group1 .logo {
+
+    width: 100%;
+    height: 797px;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #303030;
+
+
+}
+
+.group .group1 .logo .image img {
+    width: 80%;
+    height: 797px;
+}
+
+#circledesign {
+    margin-top: -825px;
+    margin-left: 56%;
+}
+
+.group .group1 .title {
+    width: 100%;
+    height: 797px;
+    /* background-color: #303030; */
+    background-color: #2f2f2f;
+    color: white;
+    padding-top: 175px;
+    padding-right: 106px;
+    padding-bottom: 234px;
+    /* padding-left: 10%; */
+
+
+
+}
+
+.group .group1 .title h1 {
+    font-size: 100px;
+    /* font-family: 'Grand Hotel', cursive; */
+    font-family: 'Grand Hotel';
+    color: #ffc200;
+    margin-top: 50px;
+}
+
+.group .group1 .title button {
+    width: 247px;
+    height: 52px;
+    background-color: #ffc200;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.group .group1 .design {
+    top: 0;
+    left: 0;
+    margin-top: -797px;
+
+}
+
+.group .group1 .image1 {
+    margin-top: 318px;
+    margin-left: 38%;
+}
+
+.group .group1 .image2 {
+    margin-top: 270px;
+    margin-left: 48%;
+}
+
+.group .group1 .image3 {
+    margin-top: -72px;
+    margin-left: 64%;
+}
+
+.group .group1 .image4 {
+    margin-top: -72px;
+    margin-left: 90%;
+}
+
+.group .group1 .image5 {
+    margin-top: -256px;
+    margin-left: 90%;
+}
+
+.group .group1 .image6 {
+    margin-top: -294px;
+    margin-left: 94%;
+}
+
+.group .group1 .image7 {
+    margin-top: -189px;
+    margin-left: 81%;
+}
+
+.group .group1 .image8 {
+    margin-top: -133px;
+    margin-left: 45%;
+}
+/* Group 2 */
+
+.group .group2 {
+    text-align: center;
+    padding: 10% 10%;
+}
+
+.group .group2 .text #text-heading {
+    font-size: 75px;
+    color: #333333;
+}
+
+.group .group2 .text p {
+    font-size: 25.3px;
+
+}
+
+.group .group2 .slider-wrap {
+    
+    position: relative;
+    overflow: hidden;
+    height: 517px;
+}
+
+.group .group2 .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.group .group2 .cards .card {
+    width: 250px;
+    height: 408px;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+    margin: 5%;
+
+
+}
+
+.group .group2 .cards .card .image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.group .group2 .cards .card .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.group .group2 .cards .card .text1 {
+    padding-top: 25px;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.group .group2 .cards .card .text1 h2 {
+    font-size: 46px;
+    text-align: center;
+}
+
+.group .group2 .cards .card .text1 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.group .group2 .leftrighticon {
+    margin-top: 270px;
+}
+.group .group2 .leftrighticon button{
+    width: 70px;
+    background-color: #ffc200;
+
+}
+
+
+/* Group 3 */
+.group3{
+    height: 795px;
+}
+/* .group3 .designG3 .image1 {
+    width: 100%;
+    height: 795px;
+} */
+
+.group3 .designG3 .image1 img{
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    margin-top: 5%;
+}
+
+.group3 .designG3 .content{
+    margin-top: -70%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
+}
+.group3 .designG3 .content .image{
+    width: 436px;
+    height: 436px;
+    border-radius: 50%;
+ 
+
+}
+.group3 .designG3 .content .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.group3 .designG3 .content  .text{
+    margin-top: 10%;
+    
+}
+.group3 .designG3 .content  .text h1{
+    font-size: 57px;
+    color: #ffc200;
+
+}
+.group3 .designG3 .content  .text p{
+    font-size: 25px;
+    margin-top: 65px;
+    text-align: justify;
+
+}
+
+.group3 .designG3 .content  .text button {
+    width: 247px;
+    height: 52px;
+    background-color: #ffc200;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.group .group4 .text{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.group .group4 .slider-wrap {
+    
+    position: relative;
+    overflow: hidden;
+    height: 339px;
+   padding-left: 10%;
+   padding-right: 10%;
+}
+
+.group .group4 .cards {
+
+    position: absolute;
+    width: 100%;
+    transition: 0.7s;
+}
+
+.group .group4 .cards .card {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid #ffc200;
+
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+    margin: 5%;
+  
+
+
+}
+.group .group4 .leftrighticon {
+    margin-top: 224px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Media query Screen size 567 to 992 px */
+
+@media only screen and (min-width: 567px) and (max-width:992px) {
+
+
+    /* Group 1 Title */
+    .group .group1 .title {
+
+        padding-top: 100px;
+        padding-right: 10px;
+        padding-bottom: 234px;
+
+
+
+    }
+
+    .group .group1 .logo .image img {
+        width: 100%;
+        height: 797px;
+    }
+
+    .group .group1 .title h1 {
+        font-size: 65px;
+
+
+        margin-top: 50px;
+    }
+
+    .group .group1 .image6 {
+        display: none;
+    }
+
+
+
+    .group .group1 .image7 {
+        margin-top: -543px;
+        margin-left: 81%;
+    }
+
+    /* Group 2 */
+    .group .group2 {
+        text-align: center;
+        padding: 70px 70px;
+    }
+    .group .group2 .slider-wrap {
+     
+        height: 471px;
+    }
+    /* Group 3 */
+    
+    
+    .group3 .designG3 .content .image{
+        width: 225px;
+        height: 225px;
+        border-radius: 50%;
+     
+    
+    }
+    .group3 .designG3 .content  .text{
+        margin-top: 65px;
+    }
+    .group3 .designG3 .content  .text h1{
+        font-size: 30px;
+        color: #ffc200;
+    
+    }
+    .group3 .designG3 .content  .text p{
+        font-size: 16px;
+        
+        margin-top: 10px;
+        text-align: justify;
+    
+    }
+    .group3 .designG3 .content  .text button {
+        
+       
+        margin-top: 65px;
+    }
+    .group .group4{
+        margin-top: 219px;
+
+    }
+    
+}
+
+
+
+
+@media only screen and (min-width: 200px) and (max-width:567px) {
+
+
+    /* Group 1 */
+    .group .group1 .logo {
+        display: block;
+    }
+
+    #circledesign {
+        display: none;
+    }
+
+    .group .group1 .title {
+        width: 100%;
+        height: 797px;
+        /* background-color: #303030; */
+        color: white;
+        padding-top: 30px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        background-color: #303030;
+        /* padding-left: 10%; */
+
+
+
+    }
+
+    .group .group1 .title h1 {
+        font-size: 65px;
+        text-align: center;
+
+
+        margin-top: 50px;
+    }
+    .group .group1 .title button{
+        margin-left: auto;
+    }
+
+    .group .group1 .design {
+        top: 0;
+        left: 0;
+        margin-top: 0px;
+
+    }
+
+    .group .group1 .logo .image img {
+        width: 100%;
+        height: 797px;
+    }
+
+    .group .group1 .image6 {
+        display: none;
+    }
+
+
+
+    .group .group1 .image7 {
+        margin-top: -543px;
+        margin-left: 59%;
+    }
+
+    .group .group1 .image5 {
+        margin-top: -256px;
+        margin-left: 76%;
+    }
+    /* Group 2 */
+    .group .group2{
+        margin-top: 799px;
+    }
+    .group .group2 .slider-wrap {
+     
+        height: 441px;
+    }
+    .group .group2 .text #text-heading {
+        font-size: 55px;
+        color: #333333;
+    }
+    .group .group2 .text p {
+        font-size: 16.3px;
+        text-align: justify;
+    }
+
+    /* Group 3 */
+    
+.group3 .designG3 .content{
+    
+    display: block;
+    height: 100%;
+    margin-top: -53%;
+    background-color: #2f2f2f;
+    
+}
+    
+.group3 .designG3 .content .image{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+
+    
+ 
+
+}
+.group3 .designG3 .content .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin-top: -54%;
+
+}
+.group3 .designG3 .content  .text{
+    margin-top: -22%;
+}
+.group3 .designG3 .content  .text h1{
+    font-size: 30px;
+    color: #ffc200;
+
+}
+.group3 .designG3 .content  .text p{
+    font-size: 16px;
+    margin-top: 65px;
+    text-align: justify;
+
+}
+}
